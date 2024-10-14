@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: memo-boost
+  datasource:
+    url: jdbc:postgresql://localhost:5432/memo_boost_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+telegram:
+  bot:
+    token: <YOUR_TELEGRAM_BOT_TOKEN>
